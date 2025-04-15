@@ -21,18 +21,18 @@ It can be easily deployed to various providers for free
 
 你需要一个 Google 的 [API 密钥](https://makersuite.google.com/app/apikey).
 
-> [!IMPORTANT]
-> Even if you are located outside of the [supported regions](https://ai.google.dev/gemini-api/docs/available-regions#available_regions),
-> it is still possible to acquire one using a VPN.
+> [!这很重要]
+> 即使你不处于 [受支持的区域](https://ai.google.dev/gemini-api/docs/available-regions#available_regions),
+> 在利用 VPN 的情况下仍可能获取.
 
-Deploy the project to one of the providers, using the instructions below.
-You will need to set up an account there.
+跟随以下的步骤部署你的项目至服务商.
+但是在这之前, 你需要在这里注册一个账号.
 
 If you opt for “button-deploy”, you'll be guided through the process of forking the repository first,
 which is necessary for continuous integration (CI).
 
 
-### Deploy with Vercel
+### 在 Vercel 部署
 
  [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/PublicAffairs/openai-gemini&repository-name=my-openai-gemini)
 - Alternatively can be deployed with [cli](https://vercel.com/docs/cli):
@@ -54,9 +54,9 @@ which is necessary for continuous integration (CI).
     _Edge functions_ [limits](https://docs.netlify.com/edge-functions/limits/)
 
 
-### Deploy to Cloudflare
+### 部署至 Cloudflare
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/PublicAffairs/openai-gemini)
+[![部署至 Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/PublicAffairs/openai-gemini)
 - Alternatively can be deployed manually pasting content of [`src/worker.mjs`](src/worker.mjs)
   to https://workers.cloudflare.com/playground (see there `Deploy` button).
 - Alternatively can be deployed with [cli](https://developers.cloudflare.com/workers/wrangler/):
