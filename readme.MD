@@ -17,9 +17,9 @@ It can be easily deployed to various providers for free
 > though it's more appropriate for development use.
 
 
-## How to start
+## 如何部署?
 
-You will need a personal Google [API key](https://makersuite.google.com/app/apikey).
+你需要一个 Google 的 [API 密钥](https://makersuite.google.com/app/apikey).
 
 > [!IMPORTANT]
 > Even if you are located outside of the [supported regions](https://ai.google.dev/gemini-api/docs/available-regions#available_regions),
